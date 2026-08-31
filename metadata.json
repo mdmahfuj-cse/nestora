@@ -1,0 +1,6 @@
+{
+  "name": "NESTORA — Property Rental Marketplace",
+  "description": "Premium map and gallery driven property rental marketplace for Bangladesh and Dhaka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
