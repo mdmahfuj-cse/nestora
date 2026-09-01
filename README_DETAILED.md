@@ -10,18 +10,6 @@
 
 **Nestora** is a modern, full-featured property rental platform designed specifically for the Dhaka real estate market. It provides an intuitive interface for both renters seeking properties and landlords/hosts managing listings. The platform combines stunning 3D visualizations, interactive maps, and intelligent search capabilities to revolutionize how properties are discovered and leased in Dhaka.
 
-### Key Features
-
-✨ **3D Virtual Tours** - Immersive panoramic property walkthroughs with interactive hotspots
-🗺️ **Interactive Maps** - Leaflet-based mapping with property overlays and location exploration
-💰 **Smart Search & Filtering** - Advanced filtering by price, amenities, property type, area
-🏠 **Host Dashboard** - Complete property management system with booking requests and analytics
-❤️ **Wishlist System** - Save and compare favorite properties
-📋 **Comparison Tool** - Side-by-side property comparison with detailed metrics
-📄 **Lease Generation** - AI-powered tenancy agreement drafting with PDF export
-🌐 **Multi-Language** - Full support for English and Bengali (Bangla)
-📱 **Responsive Design** - Optimized for desktop, tablet, and mobile devices
-🎨 **Premium UI** - Beautiful, modern interface with smooth animations
 
 ---
 
