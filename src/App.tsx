@@ -25,7 +25,13 @@ export default function App() {
       {currentRoute.name === "search" && <SearchPage />}
       {currentRoute.name === "property" && <PropertyDetailsPage />}
       {currentRoute.name === "host-dashboard" && <HostDashboardPage />}
-
+      {currentRoute.name === "wishlist" && <SavedWishlistPage />}
+      {currentRoute.name === "compare" && <PropertyComparisonPage />}
+      {currentRoute.name === "neighborhoods" && <NeighborhoodGuidePage />}
+      {currentRoute.name === "agreement" && (
+        <TenancyAgreementPage propertyId={currentRoute.propertyId} />
+      )}
+      <FloatingCompareDock />
     </AppShell>
   );
 }
