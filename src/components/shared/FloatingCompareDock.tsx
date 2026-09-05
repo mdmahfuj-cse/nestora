@@ -57,7 +57,27 @@ export const FloatingCompareDock: React.FC = () => {
           </div>
         </div>
 
- 
+        <div className="flex items-center gap-2 w-full sm:w-auto justify-between sm:justify-end">
+          <button
+            type="button"
+            onClick={() => navigate({ name: 'compare' })}
+            aria-label={`Compare ${compareIds.length} out of maximum 4 properties side-by-side`}
+            className="flex-1 sm:flex-initial px-4 py-2 rounded-xl bg-[#c9996b] hover:bg-[#b07e4f] text-white text-xs font-bold flex items-center justify-center gap-1.5 shadow-md transition-colors whitespace-nowrap cursor-pointer"
+          >
+            <span>Compare ({compareIds.length}/4)</span>
+            <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+          </button>
+
+          <button
+            type="button"
+            onClick={clearCompare}
+            aria-label="Clear all compared properties"
+            className="p-2 rounded-xl text-stone-400 hover:text-white hover:bg-white/10 transition-colors"
+            title="Clear all"
+          >
+            <Trash2 className="w-4 h-4" aria-hidden="true" />
+          </button>
+        </div>
       </motion.div>
     </AnimatePresence>
   );
