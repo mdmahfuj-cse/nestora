@@ -78,7 +78,29 @@ export const ThreeDRoomPreview: React.FC = () => {
             style={{ transform: 'translateZ(80px)' }}
             className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-white/60 shadow-2xl"
           >
-
+            <div className="flex items-start justify-between">
+              <div>
+                <span className="text-[11px] font-bold text-[#c9996b] uppercase tracking-wider">
+                  Verified Executive Rental
+                </span>
+                <h4 className="text-base font-bold font-['Outfit'] text-[#3f3531] mt-0.5">
+                  Lakeside Panoramic Duplex
+                </h4>
+                <p className="text-xs text-[#5c4f4a]/75 flex items-center gap-1 mt-1">
+                  <span>Road 54, Gulshan-2</span>
+                  <span>•</span>
+                  <span>4 Beds</span>
+                  <span>•</span>
+                  <span>3,850 sq ft</span>
+                </p>
+              </div>
+              <div className="text-right">
+                <div className="text-lg font-black font-['Outfit'] text-[#3f3531]">
+                  {formatBDT(185000)}
+                </div>
+                <span className="text-[10px] text-[#5c4f4a]/75 font-semibold">/ month</span>
+              </div>
+            </div>
 
             <div className="mt-3.5 pt-3 border-t border-stone-200 flex items-center justify-between">
               <div className="flex items-center gap-2 text-xs font-semibold text-[#5c766d]">
