@@ -71,23 +71,7 @@ export const HostStats: React.FC<HostStatsProps> = ({ properties, bookings }) =>
       </div>
 
       {/* 3. Tenant Inquiries & Applications */}
-      <div className="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-[#5c4f4a]/15 flex items-start justify-between">
-        <div className="space-y-1">
-          <p className="text-xs font-bold text-[#5c4f4a]/75 uppercase tracking-wider">
-            Tenant Applications
-          </p>
-          <h3 className="text-2xl sm:text-3xl font-black font-['Outfit'] text-[#3f3531]">
-            {bookings.length}
-          </h3>
-          <p className="text-[11px] font-semibold text-amber-700 flex items-center gap-1 pt-1">
-            <Clock className="w-3.5 h-3.5" />
-            {pendingRequests.length} Pending Review
-          </p>
-        </div>
-        <div className="w-12 h-12 rounded-2xl bg-amber-500/15 flex items-center justify-center text-amber-600">
-          <Users className="w-6 h-6" />
-        </div>
-      </div>
+
 
       {/* 4. Active Leased Volume */}
       <div className="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-[#5c4f4a]/15 flex items-start justify-between">
